@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BazierPathView.h
 //  BezierPath
 //
 //  Created by shumei on 16/8/5.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (nonatomic, strong) CAShapeLayer *shapeLayer;
+@interface BazierPathView : UIView
 
 @end
-

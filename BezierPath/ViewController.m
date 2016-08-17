@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BazierPathView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    BazierPathView * view = [[BazierPathView alloc]initWithFrame:self.view.frame];
+    view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {

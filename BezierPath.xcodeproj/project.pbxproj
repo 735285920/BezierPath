@@ -15,6 +15,7 @@
 		F477FC4F1D5478E500153C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477FC4D1D5478E500153C77 /* LaunchScreen.storyboard */; };
 		F477FC5A1D5478E500153C77 /* BezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F477FC591D5478E500153C77 /* BezierPathTests.m */; };
 		F477FC651D5478E500153C77 /* BezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F477FC641D5478E500153C77 /* BezierPathUITests.m */; };
+		F477FC741D54790800153C77 /* BazierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = F477FC731D54790800153C77 /* BazierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F477FC601D5478E500153C77 /* BezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F477FC641D5478E500153C77 /* BezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathUITests.m; sourceTree = "<group>"; };
 		F477FC661D5478E500153C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F477FC721D54790800153C77 /* BazierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BazierPathView.h; sourceTree = "<group>"; };
+		F477FC731D54790800153C77 /* BazierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BazierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F477FC431D5478E500153C77 /* AppDelegate.m */,
 				F477FC451D5478E500153C77 /* ViewController.h */,
 				F477FC461D5478E500153C77 /* ViewController.m */,
+				F477FC721D54790800153C77 /* BazierPathView.h */,
+				F477FC731D54790800153C77 /* BazierPathView.m */,
 				F477FC481D5478E500153C77 /* Main.storyboard */,
 				F477FC4B1D5478E500153C77 /* Assets.xcassets */,
 				F477FC4D1D5478E500153C77 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F477FC741D54790800153C77 /* BazierPathView.m in Sources */,
 				F477FC471D5478E500153C77 /* ViewController.m in Sources */,
 				F477FC441D5478E500153C77 /* AppDelegate.m in Sources */,
 				F477FC411D5478E500153C77 /* main.m in Sources */,
